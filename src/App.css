@@ -1,0 +1,7 @@
+body{
+    font-family: 'Nunito', serif;
+}
+.active{
+    color: #D4AF37;
+    scale: 1.1;
+}
