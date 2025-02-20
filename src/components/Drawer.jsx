@@ -75,7 +75,7 @@ export default function Menu() {
             path:PATH.upcoming
           },
         ].map((item) => (
-          <NavLink to={item.path}>
+          <NavLink to={item.path} key={item.id}>
             <ListItem key={item.id} disablePadding>
             <ListItemButton>
               <ListItemIcon className='!text-[white]'>

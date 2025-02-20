@@ -9,7 +9,7 @@ import { PATH } from '../hooks/path';
 
 const Header = () => {
   return (
-    <div className='w-full py-[25px] bg-[#0A1F44] pl-10  pr-] flex gap-[350px]'>
+    <div className='w-full py-[25px] bg-[#0A1F44] pl-10  pr-] flex gap-[350px] items-center'>
         <a href='/' className='flex items-center gap-2'>
             <img src="src/assets/images/LogoImg.png" alt="Logo Image" width={40}/>
             <p className='text-[25px] text-[#D4AF37] font-bold'>Grand Film</p>
