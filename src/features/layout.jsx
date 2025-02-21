@@ -6,7 +6,7 @@ const DashboardLayout = ({children}) => {
   return (
     <>
         <Header/>
-        <div>
+        <div className='overflow-auto'>
             {children}
         </div>
     </>
